@@ -1,0 +1,38 @@
+
+.main{
+	width: 960px;
+}
+
+.header{
+	background-color: yellow;
+	width: 100%;
+	min-height: 150px;
+	border: 2px solid red;
+	overflow: hidden;
+}
+
+.body{
+	width: 100%;
+	display: flex;
+}
+
+.left-menu{
+	background-color: blue;
+	width: 260px;
+	float: left;
+	display: inline-flex;
+	
+}
+
+.content{
+	background-color: gray;
+	width: 700px;
+	padding: 10px;
+}
+
+.footer{
+	background-color: red;
+	width: 100%;
+	min-height: 200px;
+	border: 2px solid blue;
+}

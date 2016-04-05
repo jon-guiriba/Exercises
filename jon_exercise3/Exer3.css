@@ -6,22 +6,22 @@
 
 .body{
 	width: 100%;
-	display: flex;
+	
 }
 
 
 .header{
-	background-color: gray;
+	background-color: 	#A9A9A9;
 	width: 100%;
 	min-height: 150px;
 	
 }
 
 .left-menu{
-	background-color: green;
+	background-color: #D0B879;
 	width: 160px;
 	min-height: 200px;
-	float: left;
+	display: table-cell;
 	position: relative;
 	word-wrap: break-word; 
 }
@@ -64,29 +64,30 @@
 }
 
 .content{
-	background-color: purple;
+	background-color: #4B0082;
 	width: 600px;
 	min-height: 200px;
+	display: table-cell;
 }
 
 .right-menu{
-	background-color: blue;
+	background-color: #4169E1;
 	width: 200px;
 	min-height: 200px;
-	float: left;
+	display: table-cell;
 	
 }
 
 .footer{
-	background-color: red;
+	background-color: #FF0000;
 	width: 100%;
 	min-height: 100px;
-	
+	clear: both;
 }
 
 .button-special {
 	border: blue solid 1px;
-	background-color: yellow;
+	background-color: #FFA500;
     position: fixed;
     width: 50px;
     min-height: 30px;

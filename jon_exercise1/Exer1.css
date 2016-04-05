@@ -4,34 +4,66 @@
 }
 
 .header{
-	background-color: yellow;
+	background-color: #FFFF00;
 	width: 100%;
 	min-height: 150px;
 	border: 2px solid red;
-	overflow: hidden;
-}
-
-.body{
-	width: 100%;
-	display: flex;
-}
-
-.left-menu{
-	background-color: blue;
-	width: 260px;
-	float: left;
-	display: inline-flex;
 	
 }
 
-.content{
-	background-color: gray;
-	width: 700px;
-	padding: 10px;
+.container2{
+	float:left;
+   	width: 100%;
+    background: #307EAB;
+    position:relative;
+    left:0;
+    overflow: hidden;
 }
 
+.container1{
+	float:left;
+    width: 100%;
+    background: #485359;
+    position:relative;
+    left:260px;
+	
+}
+
+.left-menu{
+	float:left;
+    width:260px;
+    position:relative;
+    left:-28%;
+    overflow:hidden;
+}
+
+.content{
+	float:left;
+    width:680px;
+    position:relative;
+    left:-27%;
+    overflow:hidden;
+    padding: 10px;
+}
+
+/*
+.left-menu{
+	background-color: #307EAB;
+	width: 260px;
+	float: left;
+
+}
+
+.content{
+	background-color: #485359;
+	width: 680px;
+	padding: 10px;
+	float: right;
+}
+*/
 .footer{
-	background-color: red;
+	clear: both;
+	background-color: #D10505;
 	width: 100%;
 	min-height: 200px;
 	border: 2px solid blue;

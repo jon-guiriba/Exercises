@@ -4,60 +4,63 @@
 }
 
 .header{
-	background-color: red;
+	background-color: #D21717;
 	min-height: 150px;
 	width: 100%;
 	
 }
 
-.left-menu{
-	background-color: green;
-	width: 320px;
-	min-height: 200px;
-	float: left;
-	
-}
 
 .body{
 	width:100%;
-	display: flex;
+	
 }
 
 
-.content{
+.left-menu{
+	background-color: #2E8B57;
+	width: 320px;
+	height: 200px;
+	display: table-cell;
+}
 
+.content{
+	background-color: #0033CC;
 	width: 640px;
-	min-height: 200px;
+	height: 200px;
+	display: table-cell;
 }
 
 .item-top{
-	display: flex;
-
+	width: 100%;
+	
 }
 
 .item-left{
-	float: left;
+	
 	width: 320px;
-	background-color: yellow;
-	min-height: 100px;
+	background-color: #FF9900;
+	height: 100px;
+	display: table-cell;
 }
 
 .item-right{
-	float: left;
+	
 	width: 320px;
-	background-color: purple;
-	min-height: 100px;
+	background-color: #6633FF;
+	height: 100px;
+	display: table-cell;
 }
 
 .item-bottom{
-	background-color: blue;
+	background-color: #0033CC;
 	width: 640px;
-	display: flex;
+	display: table-cell;
 	min-height: 100px;
 }
 
 .footer{
-	background-color: gray;
+	background-color: #A9A9A9;
 	width: 100%;
 	min-height: 100px;
 	

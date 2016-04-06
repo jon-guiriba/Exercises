@@ -7,22 +7,19 @@
 }*/
 
 @font-face{ 
-	font-family: 'Calson-initials';
-	src: url('fonts/casloncalligraphicinitials_regular_macroman/Caslon_Calligraphic-webfont.eot');
-	src: url('fonts/casloncalligraphicinitials_regular_macroman/Caslon_Calligraphic-webfont.eot?iefix') format('eot'),
-	     url('fonts/casloncalligraphicinitials_regular_macroman/Caslon_Calligraphic-webfont.woff') format('woff'),
-	     url('fonts/casloncalligraphicinitials_regular_macroman/Caslon_Calligraphic-webfont.ttf') format('truetype'),
-	     url('fonts/casloncalligraphicinitials_regular_macroman/Caslon_Calligraphic-webfont.svg#webfont') format('svg');
+	font-family: 'AdineKirnberg-Script';
+	src: url('fonts/AdineKirnberg/AdineKirnberg-Script.ttf') format('truetype');
 }
 
 .body{
 	position: relative;
+	overflow: auto;
 }
 
 
 .header-extra1{
 	left: 0;
-	top: 11.5%;
+	top: 80px;
 	background-color: #F6F6ED;
 	border: 0.5px solid #E7E8E0;
 	position: absolute; 
@@ -33,7 +30,7 @@
 
 .header-extra2{
 
-	top: 18%;
+	top: 128px;
 	right: 0;
 	background-color: #F6F6ED;
 	border: 0.5px solid #E7E8E0;
@@ -44,26 +41,52 @@
 }
 
 .design ul li div p{
+	margin: 0 0 5px 0;
 	text-align: initial;
+
 }
+
 
 p{
-	text-align: justify;
-	font-family: sans-serif;
-	font-size: 15px;
+	font: normal 11px/16px "Lucida Grande","Lucida Sans","Lucida Sans" ;
 }
 
-.design ul li div h4, .design ul li div p, .archives ul li{
+.design ul li a p:nth-child(1), .archives ul li{
 	color: #B1A867;
+	margin: 0 0 0 0;
+	    font: normal 11px/16px "Lucida Grande","Lucida Sans","Lucida Sans Unicode",Lucida,Arial,Helvetica,sans-serif;
+	    font-weight: normal;
+    	font-style: italic;
+    	font-size: 12px;
+    	text-transform: none;
+    	line-height: 14px;
+		
+}
+
+.design ul li a p:nth-child(2){
+	font-style: normal;
+    font-size: 11px;
+    color: #bcbb93;
+    letter-spacing: 0;
+    text-transform: lowercase;
+}
+
+.design ul li a, .archives ul a{
+	text-decoration: none;
+	display: block;
 }
 
 .design ul li{
 	list-style-image: url("images/design-li-ico.jpg");
+	margin: 0 0 20px 0;
+
 }
 
 .design ul li p{
-	margin: 4px 0 4px 0;
+	margin: 0;
 }
+
+
 
 .archives ul li{
 	list-style-image: url("images/archive-li-ico.jpg");
@@ -74,13 +97,18 @@ p{
 }
 
 .archives ul{
+	margin: 8px 0 0 0;
 	padding-left: 17px;
 }
 
 .archives>ul li{
-	margin: 14px 0 14px 0;
+	margin: 0 0 8px 0;
 }
 
+.intro-body p:nth-child(1){
+	font: normal 12px/18px Georgia,"Times New Roman",Times, serif;
+	font-style: italic;
+}
 
 .intro p, .article1 *, .article2 *{
 	color: #BAB98E;
@@ -91,23 +119,42 @@ p{
 	border-bottom: 1px solid #BAD785 ;
 }
 
+.intro-body p:nth-child(3){
+	margin: 0 0 56px 0;
+
+}
+
 .intro p a{
 	text-decoration: none;
 	color: #8FB34F;
 }
 
-.intro img:nth-child(3){
+.intro-body img:nth-child(2){
 	float: left;
 	width: 3.5%;
 }
 
 .intro-header{
+	margin: 0 0 22px 0;
 	position: relative;
 	right: 20px;
 }
 
+.intro-body{
+	margin: 0 0 25px 0;
+}
+
 .article1 p{
-	margin: 20px 0 34px 0;
+	margin: 0;
+	text-align: justify;
+}
+
+.article1{
+	margin: 0 0 34px 0;
+}
+
+.article2{
+	margin: 0 0 26px 0;
 }
 
 body.ie6 #box,
@@ -127,8 +174,8 @@ body.ie8 #box {
 	margin: 5px 18% 0 18%;
 
 	width: 752px;	
-	height: 1079px;
 	margin: auto;
+	overflow:auto;
 }
 
 .header{
@@ -142,14 +189,21 @@ body.ie8 #box {
 	width: 100%;
 }
 
-
-.article1 h2, .article2 h2{
+.article1 h2, .article2 h2, .menu h2, .archives h2{
 	height: 24px;
-	border-bottom: 1px solid #D6D5BB;
-	font-family: 'Calson-initials', cursive;
-	font-size: 14px;
+	border-bottom: 1px solid #E0EDC9;
+	font-family: 'AdineKirnberg-Script', cursive;
+	font-size: 27px;
+
 }
 
+.article1 h2, .article2 h2{
+	margin: 0 0 27px 0;
+}
+
+.article2 p{
+	text-align: justify;
+}
 .body{
 	margin: 55px 0 0 0; 
 }
@@ -162,34 +216,51 @@ body.ie8 #box {
 
 .body-content-right{
 	width: 26.8%;
-	float: left;
-	margin: 0 44px 0 0;
+	float: right;
+    margin: 0 33px 0 0;
 }
 
 .design ul{
 	padding-left: 17px;
+
 }
 
-.design ul>li>div>h4{
-	margin: 6px 0 6px 0;
-}
 
 .footer{
 	clear: both;
 	overflow: auto;
-	margin: 0 0 0 280px;
+	margin: 0 0 34px 280px;
 
 }
 
+
+.footer>ul>li{
+	list-style: none;
+	float:left;
+	margin: 0 3px 0 0;
+	font: normal 11px/16px "Lucida Grande","Lucida Sans","Lucida Sans Unicode",Lucida,Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+
+.footer>ul{
+	float: left;
+	padding: 0 0 0 0;
+}
+
+.footer-icon{
+	float: left;
+	margin: 17px 2px 0 0;
+}
+
+/*
 .footer>strong>p{
 	color: #BCBA4F;
 	float:left;
 	margin: 0 10px 0 0;
 }
+*/
 
-.footer-icon{
-	margin-top: 0.5%;
-	float: left;
-	margin: 0 10px 0 0;
+a{
+	color: #BCBA4F;
+	text-decoration: none;
 }
-

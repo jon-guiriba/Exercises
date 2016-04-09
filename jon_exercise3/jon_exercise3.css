@@ -1,16 +1,16 @@
 @font-face {
     font-family: MyriadPro-Bold;
-    src: url(fonts/MyriadPro-Bold.otf);
+    src: url(MyriadPro-Bold.otf);
 }
 
 @font-face {
     font-family: MyriadPro;
-    src: url(fonts/MyriadPro-Regular.otf);
+    src: url(MyriadPro-Regular.otf);
 }
 
 @font-face {
     font-family: MyriadPro-Light;
-    src: url(fonts/MyriadPro-Light.otf);
+    src: url(MyriadPro-Light.otf);
 }
 
 
@@ -70,7 +70,7 @@ a{
 .header li{
 	float: left;
 	color: #9A9B93;
-	letter-spacing: -1px;
+	letter-spacing: -0.5px;
 }
 
 .body{
@@ -200,7 +200,7 @@ a{
 
 .testimonials{
 	float: left;
-	width: 480px;
+	width: 438px;
 	border-right: 2px dotted #CCCCCC;
 
 }
@@ -238,7 +238,7 @@ a{
 }
 
 .testimonials img{
-	width: 74px;
+	width: 78px;
 
 }
 
@@ -249,13 +249,14 @@ a{
 
 .testimonials div p{
 	font: 15px "MyriadPro";
-    line-height: 19px;
+    line-height: 21px;
     margin: 0 0 13px 0;
-    color: #888;
+    color: #A29FA8;
 }
 
 
 .testimonials div h6{
+	color: #717171;
 	font-size: 14px;
 	line-height: 10px;
 
@@ -268,28 +269,30 @@ a{
 
 .projects{
 
-	width: 341px;
+	width: 393px;
 	margin: 0 0 0 43px;
 	float: left;
-	color: #888;
+	color: #A29FA8;
 }
 
 .projects h6:nth-child(1){
 	color: #717171;
 	font: 19px "MyriadPro";
-	margin: 0 0 19px 0;
+	margin: 0 0 14px 0;
 }
 
-.projects h6:nth-child(2){
-	font-size: 20px;
+.projects a:nth-child(2){
+	font-size: 17px;
 	font-weight: normal;
-	margin: 0 0 4px 0;
+	margin: 0 0 9px 0;
+	text-decoration: none;
+	color: #A29FA8;
 }
 
 
 
 .projects img{
-	width: 341px;
+	width: 100%;
 	margin: 0 0 8px 0;
 }
 
@@ -300,7 +303,7 @@ a{
 }
 
 .projects a{
-	font-size: 12px
+	font-size: 12px;
 
 }
 

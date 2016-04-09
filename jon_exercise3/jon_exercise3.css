@@ -1,0 +1,312 @@
+@font-face {
+    font-family: MyriadPro-Bold;
+    src: url(fonts/MyriadPro-Bold.otf);
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(fonts/MyriadPro-Regular.otf);
+}
+
+@font-face {
+    font-family: MyriadPro-Light;
+    src: url(fonts/MyriadPro-Light.otf);
+}
+
+
+li, a, p, h6, h5, h1, h2{
+	font-family: "arial";
+}
+
+h1, h2, h6, h5, p, ul,h3{
+	margin: 0;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.susan-strong{
+	font-family: "MyriadPro-Bold";
+
+
+}
+
+.content-wrapper{
+	width:960px;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.header a{
+
+	text-decoration: none;
+	color: #9A9B93;
+}
+
+.header a:hover{
+	text-decoration: underline;
+}
+
+.header{
+	margin: 3px 2px;
+	background-color:#333333;
+
+}
+
+.header img{
+	width: 364px;
+	padding: 2px;
+}
+
+.header ul{
+	list-style: none;
+	float: right;
+	margin: 58px 20px;
+}
+
+.header li{
+	float: left;
+	color: #9A9B93;
+	letter-spacing: -1px;
+}
+
+.body{
+	width: 876px;
+	margin: auto;
+}
+
+.banner{
+    padding: 38px 0;
+    border-bottom: 2px dotted #CCCCCC;
+   
+}
+
+.banner h1, .banner h2{
+
+
+
+}
+
+.banner h1{
+	font-size: 53px;
+	font-weight: 600;
+	color: #313131;
+	margin: 0 0 0 0;
+	font-family: 'MyriadPro-Bold';
+
+}
+
+.banner h2{
+	font-size: 43px;
+	font-weight: 100;
+	color: #B9B9B9;		
+	margin: 0;
+	font-family: "arial";
+
+}
+
+
+
+.text-skyblue{
+	color: #00C4FA;
+}
+
+.slogan{
+
+	border-bottom: 2px dotted #CCCCCC;
+}
+
+.slogan p{
+	font-size: 30.4px;
+	color: #545454;
+	margin: 26px 0;
+	letter-spacing: -2px;
+}
+
+.services{
+	border-bottom: 2px dotted #CCCCCC;
+	padding: 0 0 50px 0;
+}
+
+.services ul{
+	margin: 48.6px 0 0 0;
+	padding: 0;
+	overflow: auto;
+}
+.services li{
+	list-style: none;
+    background-color: #01AEF0;
+    width: 205px;
+    color: #EEFEFE;
+    padding: 17px 24px 38px 24px;
+    float: left;
+
+}
+
+.services li:nth-child(1){
+	margin: 0 0 0 0 ;
+}
+
+.services li:nth-child(2){
+	margin: 0 50px;
+}
+
+.services li:nth-child(3){
+	margin: 0 0 0 0;
+}
+
+
+.services h6{
+	font-size: 31px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0px 0 13px 0;
+    border-bottom: 2px dotted #CCCCCC;
+    margin: 0 0 22px 0;
+    color: #FDFBE6;
+}
+
+.services p{
+	font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin: 0 0 16px 0;
+    color: #ACDDFF;
+}
+
+.services a{
+	
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	background-color: #0079A3;
+	border: 2px solid #0C698A;
+	padding: 6px 0;
+	font-family: 'MyriadPro';
+	text-decoration: none;
+	color: #B4D1D9;
+}
+
+.testimonials-and-projects{
+	padding: 28px 0;
+	border-bottom: 2px dotted #CCCCCC;
+	overflow: auto;
+}
+
+.testimonials{
+	float: left;
+	width: 480px;
+	border-right: 2px dotted #CCCCCC;
+
+}
+
+.testimonials li{
+	margin: 0 0 31px 0;
+	overflow: auto;
+}
+
+.testimonials li:nth-last-child(1){
+	margin: 0;
+	overflow: auto;
+}
+
+.testimonials ul{
+ 	padding: 0;
+ 	list-style: none;
+}
+
+.testimonials>h6:nth-child(1){
+	font: 19px "MyriadPro";
+	color: #717171;
+	margin: 0 0 20px 0;
+
+}
+
+.testimonials>h6{
+	font: 19px "MyriadPro";
+	color: #717171;
+}
+
+.testimonials a{
+	float: left;
+	margin: 0 27px 0 0;
+}
+
+.testimonials img{
+	width: 74px;
+
+}
+
+.testimonials div{
+	float: left;
+	width: 330px;
+}
+
+.testimonials div p{
+	font: 15px "MyriadPro";
+    line-height: 19px;
+    margin: 0 0 13px 0;
+    color: #888;
+}
+
+
+.testimonials div h6{
+	font-size: 14px;
+	line-height: 10px;
+
+}
+
+
+.testimonials div span{
+	font-size: 14px;
+}
+
+.projects{
+
+	width: 341px;
+	margin: 0 0 0 43px;
+	float: left;
+	color: #888;
+}
+
+.projects h6:nth-child(1){
+	color: #717171;
+	font: 19px "MyriadPro";
+	margin: 0 0 19px 0;
+}
+
+.projects h6:nth-child(2){
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 4px 0;
+}
+
+
+
+.projects img{
+	width: 341px;
+	margin: 0 0 8px 0;
+}
+
+.projects p{
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0 0 7px 0;
+}
+
+.projects a{
+	font-size: 12px
+
+}
+
+.footer{
+	clear: both;
+	font: 14px "Tahoma";
+	margin: 21px 0 55px 0;
+	color: #A7ABAC;
+}

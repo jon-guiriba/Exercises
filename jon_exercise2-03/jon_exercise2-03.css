@@ -1,0 +1,190 @@
+
+
+a, p, li, span{
+	font-family: "Calibri";
+	color: #999999 ;
+}
+
+h6{
+	color: #444444;
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+.text-circle-bordered{
+	border-radius: 25px;
+	background: #F2F2F2;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 0 13%;
+}
+
+.text-circle-bordered:hover{
+	background: #79B6DF;
+}
+
+.underline-on-hover{
+	text-decoration: none;
+}
+
+.underline-on-hover:hover{
+	text-decoration: underline;
+}
+
+.link-article{
+	color: #6D89CC;
+	text-decoration-color: #D9D9D9;
+}
+
+
+/*********************************************************************/
+
+.content-wrapper{
+	width: 925px;
+	margin: 0 auto;
+	border-top: 5px solid #444444;
+}
+
+.header{
+	margin: 0 0 2px 0;
+}
+
+.header img{
+	float; left;
+	margin: 34.5px 0;
+}
+
+.header ul{
+	float: right;
+	margin: 45px 0;
+}
+
+.header ul li{
+	color: #666666;
+	font-weight: 600;
+	float: left;
+	border-radius: 25px;
+	background: white;
+	padding: 3px 12px;
+	font-size: 14px;
+
+}
+
+.header ul li:hover{
+	background: #79B6DF;
+	color: white;
+}
+
+
+.header-banner{
+	clear:both;
+	border-bottom: 1px solid #D0D0D0;
+	border-top: 1px solid #E2E2E2;
+	
+}
+
+.header-banner span{
+	font-size: 39px;
+	margin: 30px 170px;
+	font-family: "Angsana New Welcome";
+	display: inline-block;
+	color: #404040;
+}
+
+.left-nav{
+	width: 240px;
+	float: left;
+	padding: 0;
+	margin: 26px 38px 42px 0;
+	
+}
+
+.left-nav h6{
+	padding: 5px 0;
+	border-bottom: 1px solid #EEEEEE;
+	font-size: 17px;
+}
+
+.left-nav li ul li{
+	margin: 0;
+	font-size: 18px;
+	color: black !important;
+	font-family: "Browallia New";
+
+}
+
+.left-nav li ul li a{
+	font-family: "Browallia New";
+}
+
+.left-nav li ul{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.left-nav li{
+	padding: 0;
+	margin: 0 0 26px;
+}
+
+.body{
+	border-top: 1px solid #E2E2E2;
+	float:left;
+}
+
+.body-content{
+	width: 69.3%;
+	float: left;
+	margin: 38px 0 66px 0;
+}
+
+.article h6{
+	font-style: italic;
+	font-size: 28px;
+	font-weight: 100;	
+	font-family: "Times New Roman";
+}
+
+.article img{
+	margin: 5px 0;
+
+}
+
+.article p{
+	margin: 0;
+	line-height: 24px;
+	font-size: 14px;
+	color: #777777;
+}
+
+.article a{
+	border-bottom: 1px solid #D6D6D6;
+	text-decoration: none;
+	color: #3589C1;
+}
+
+.footer{
+	clear: both;
+	overflow: auto;
+	border-top: 1px solid #E2E2E2;
+}
+
+.footer>span:nth-child(1){
+	float: left;
+}
+
+.footer>span:nth-child(2){
+	float: right;
+}
+
+.footer span{
+	margin: 12px 0 53px 0;
+	font-size: 11px;
+    font-weight: 500;
+
+
+}

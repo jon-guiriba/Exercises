@@ -1,0 +1,1 @@
+START cmd.exe /k "php bin/console server:run"

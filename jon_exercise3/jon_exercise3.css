@@ -51,7 +51,7 @@ a{
 }
 
 .header{
-	margin: 3px 2px;
+	margin: 3px 6px 3px 4px;
 	background-color:#333333;
 
 }
@@ -79,19 +79,19 @@ a{
 }
 
 .banner{
-    padding: 38px 0;
-    border-bottom: 2px dotted #CCCCCC;
+    padding: 43px 0;
+    border-bottom: 3px dotted #CCCCCC;
    
 }
 
 .banner h1, .banner h2{
-
+letter-spacing: -1px;
 
 
 }
 
 .banner h1{
-	font-size: 53px;
+	font-size: 54px;
 	font-weight: 600;
 	color: #313131;
 	margin: 0 0 0 0;
@@ -100,11 +100,13 @@ a{
 }
 
 .banner h2{
-	font-size: 43px;
+	font-size: 45px;
 	font-weight: 100;
 	color: #B9B9B9;		
 	margin: 0;
-	font-family: "arial";
+	font-family: 'MyriadPro';
+	line-height: 30px;
+	
 
 }
 
@@ -116,7 +118,7 @@ a{
 
 .slogan{
 
-	border-bottom: 2px dotted #CCCCCC;
+	border-bottom: 3px dotted #CCCCCC;
 }
 
 .slogan p{
@@ -127,13 +129,13 @@ a{
 }
 
 .services{
-	border-bottom: 2px dotted #CCCCCC;
-	padding: 0 0 50px 0;
+	border-bottom: 3px dotted #CCCCCC;
+	padding: 0 0 35px 0;
 }
 
 .services ul{
 	margin: 48.6px 0 0 0;
-	padding: 0;
+	padding: 0 0 5px 0;
 	overflow: auto;
 }
 .services li{
@@ -143,6 +145,8 @@ a{
     color: #EEFEFE;
     padding: 17px 24px 38px 24px;
     float: left;
+    box-shadow: 3px 3px 4px #bbb;
+  
 
 }
 
@@ -164,7 +168,7 @@ a{
     font-weight: 100;
     text-align: center;
     padding: 0px 0 13px 0;
-    border-bottom: 2px dotted #CCCCCC;
+    border-bottom: 3px dotted #CCCCCC;
     margin: 0 0 22px 0;
     color: #FDFBE6;
 }
@@ -193,20 +197,20 @@ a{
 }
 
 .testimonials-and-projects{
-	padding: 28px 0;
-	border-bottom: 2px dotted #CCCCCC;
+	padding: 25px 0;
+	border-bottom: 3px dotted #CCCCCC;
 	overflow: auto;
 }
 
 .testimonials{
 	float: left;
 	width: 438px;
-	border-right: 2px dotted #CCCCCC;
+	border-right: 3px dotted #CCCCCC;
 
 }
 
 .testimonials li{
-	margin: 0 0 31px 0;
+	margin: 0 0 30px 0;
 	overflow: auto;
 }
 
@@ -244,11 +248,11 @@ a{
 
 .testimonials div{
 	float: left;
-	width: 330px;
+	width: 280px;
 }
 
 .testimonials div p{
-	font: 15px "MyriadPro";
+	font: 14px "MyriadPro";
     line-height: 21px;
     margin: 0 0 13px 0;
     color: #A29FA8;
@@ -269,7 +273,7 @@ a{
 
 .projects{
 
-	width: 393px;
+	width: 392px;
 	margin: 0 0 0 43px;
 	float: left;
 	color: #A29FA8;
@@ -293,13 +297,14 @@ a{
 
 .projects img{
 	width: 100%;
-	margin: 0 0 8px 0;
+	margin: 7px 0 8px 0;
 }
 
 .projects p{
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 24px;
 	margin: 0 0 7px 0;
+
 }
 
 .projects a{
@@ -310,6 +315,6 @@ a{
 .footer{
 	clear: both;
 	font: 14px "Tahoma";
-	margin: 21px 0 55px 0;
+	margin: 17px 0 60px 0;
 	color: #A7ABAC;
 }

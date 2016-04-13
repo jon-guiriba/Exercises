@@ -171,10 +171,10 @@ body.ie8 #box {
 	box-shadow: 0 0 20px #666666;
    -webkit-box-shadow: 0 0 20px #666666;
    -moz-box-shadow: 0 0 20px #666666;
-	margin: 5px 18% 0 18%;
+
 
 	width: 752px;	
-	margin: auto;
+	margin: 0 auto 10px auto;
 	overflow:auto;
 }
 
@@ -229,7 +229,7 @@ body.ie8 #box {
 .footer{
 	clear: both;
 	overflow: auto;
-	margin: 0 0 34px 280px;
+	margin: 0 0 8px 280px;
 
 }
 

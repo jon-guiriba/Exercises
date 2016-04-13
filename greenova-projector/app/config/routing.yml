@@ -1,0 +1,11 @@
+# rerouting:
+#     resource: "@AppBundle/Resources/config/routing.yml"
+#     prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type: annotation
+
+login:
+    resource: "@AppBundle/Projector/"
+    type: annotation

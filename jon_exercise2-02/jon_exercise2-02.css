@@ -34,6 +34,7 @@
 .header-lower ul{
 	padding: 0 20px;
 	margin: 0 0 0 0;
+	overflow: auto;
 }
 
 .header-lower ul li{
@@ -44,9 +45,11 @@
 
 }
 
-.header-lower ul li p:nth-child(1){
-	font-size: 18px;
-	font-weight: 600;
+.header-lower ul li h6{
+	font-size: 21px;
+	font-weight: 100;
+	color: black;
+	margin: 21px 0 10px 0;
 }
 
 .header-lower ul li p{
@@ -78,7 +81,7 @@
 	margin: 0 0 0 0;
 	font-family: "Times New Roman";
 }
-.body-upper-text p:nth-child(3){
+.text-bordered{
 	border: 0.5px solid #CCCCCC;
 	display: inline-block;
     font-size: 11px;
@@ -109,7 +112,7 @@
 .body-lower-left img{
 	float: left;
 	position: relative;
-	margin: 30px 20px 30px 20px;
+	margin: 26px 20px 30px 20px;
 
 }
 
@@ -119,7 +122,7 @@
 	position: relative;
 	right: 0;
 	padding: 0 17px 0 0;
-	margin: 18px 0 0 0;
+	margin: 32px 0 0 0;
 }
 
 .body-lower-left-text p:nth-child(1){
@@ -129,9 +132,10 @@
 
 }
 
-.body-lower-left-text p:nth-child(2){
+.body-lower-left-text h6{
 	font-weight: 500;
-
+	margin: 11px 0 0 0;
+	font-size: 19px; 
 }
 
 .body-lower-left-text p:nth-child(3){
@@ -142,18 +146,28 @@
 
 .body-lower-right{
 	float: left;
-	margin: 16px 0 0 0;
+	margin: 32px 0 0 0;
+
 }
 
-.body-lower-right p{
+.body-lower-right>span{
+	padding: 0 0 0 18px;
+}
+
+.annotation{
+
 	font-size: 12px;
 	color: #7F7FA7;
 	font-style: italic;
-	padding: 0 0 0 18px;
+	font-family: "Times New Roman";
+	margin: 14px 0 0 0;
+	font-weight: 400;
+
 }
 
 .body-lower-right ul{
 	list-style: square;
+	margin: 20px 0 0 0;
 }
 
 .body-lower-right ul li{
@@ -179,15 +193,21 @@
 	padding: 16px 20px;
 	float: left;
 
-}
-.footer-left p{
-	float: left;
 	font-size: 12px;
 	margin: 2.5px 0;
 	color: #7F7F7F;
 	
+
 }
-.footer-left p span{
+
+.footer-left span:nth-child(3){
+	letter-spacing: 1px;
+	font-family: "Times New Roman";
+
+}
+
+
+.footer-left span:nth-child(1){
 	color: black;
 }
 
@@ -196,13 +216,23 @@
 	overflow: auto;
 }
 
-.footer-right p{
 
+.copyright{
+	text-align: center;
+	margin: 15px auto;
+	width: 790px;
+	font-size: 10px; 
+	letter-spacing: 1px;
+	color: #575757;
 }
 
 /*-----------extra-----------*/
 a{
 	color: black;
+}
+
+.copyright a{
+	color: #593C59;
 }
 
 .content-wrapper{
@@ -215,10 +245,7 @@ a{
 	border-top: 5px solid #D9B860;
 	border-bottom: 5px solid #D9B860;
 	margin: auto;
-
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-
+	background-color: white; 
 }
 
 
@@ -261,6 +288,14 @@ p, li{
 }
 
 .text-number{
-	font-family: "Corbel";
+	font-family: "Corbel" !important;
 	color: #7F7F7F !important;
+}
+
+body{
+	background-color: #7F7F7F;
+}
+
+h6{
+	font-family: "Times New Roman";
 }

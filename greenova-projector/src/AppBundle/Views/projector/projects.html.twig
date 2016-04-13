@@ -1,0 +1,62 @@
+{% extends 'projects-base.html.twig' %}
+
+{% block header %}
+	<div class="header">Welcome {{ username }}!  <a href="{{ logout_path('main') }}">Sign-out</a></div>
+{% endblock %}
+
+{% block taksboard %}
+	<table class="taskboard">
+		<thead>
+			<tr>
+				<th>Project Name</th>
+				<th>Budget</th>
+				<th>Tasks</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			<tr>
+
+			</tr>
+			
+			
+		</tbody>
+	</table>
+{% endblock %}	
+
+{% block taksboard_extension %}
+	<div class="taksboard-extension">
+		<h5>Other Tasks</h5>
+		<a>Create Project</a>
+		<a>Create Person</a>
+	</div>
+{% endblock %}	
+
+{% block stylesheets %}
+<style>
+.body{
+	margin: 20px 0 0 0;
+}
+
+.header{
+	margin: 0 0 0 80%;
+	padding: 20px;
+}
+
+.header a{
+	margin: 0 0 0 20px;
+}
+
+.taskboard{
+	display: inline;
+	width: 45%;
+	margin: 0 2.5%;
+}
+
+.taskboard-extension{
+	display: inline;
+	width: 45%;
+	margin: 2.5%;
+}
+</style>
+{% endblock %}

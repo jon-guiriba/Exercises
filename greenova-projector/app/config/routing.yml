@@ -3,9 +3,5 @@
 #     prefix:   /
 
 app:
-    resource: "@AppBundle/Controller/"
-    type: annotation
-
-login:
-    resource: "@AppBundle/Projector/"
+    resource: "@AppBundle/Controllers/"
     type: annotation

@@ -1,62 +1,73 @@
 {% extends 'projects-base.html.twig' %}
 
-{% block header %}
-	<div class="header">Welcome {{ username }}!  <a href="{{ logout_path('main') }}">Sign-out</a></div>
-{% endblock %}
+{% block taskboard %}
+    <table class="taskboard">
+        <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Budget</th>
+                <th>Tasks</th>
+            </tr>
+        </thead>
 
-{% block taksboard %}
-	<table class="taskboard">
-		<thead>
-			<tr>
-				<th>Project Name</th>
-				<th>Budget</th>
-				<th>Tasks</th>
-			</tr>
-		</thead>
-		
-		<tbody>
-			<tr>
+        <tbody>
+           
+                {% for key in projects|keys %}
+                    <tr>
+                        <td>{{ projects[key].getName() }}</td>
+                        <td>{{ projects[key].getBudget() }}</td>
+                        <td><a href="#">Assignments</a></td>
+                    </tr>
 
-			</tr>
-			
-			
-		</tbody>
-	</table>
+                {% endfor %}
+            
+
+        </tbody>
+    </table>
 {% endblock %}	
 
-{% block taksboard_extension %}
-	<div class="taksboard-extension">
-		<h5>Other Tasks</h5>
-		<a>Create Project</a>
-		<a>Create Person</a>
-	</div>
+{% block taskboard_extension %}
+    <div class="taskboard-extension">
+        <h5>Other Tasks</h5>
+        <a href="{{ path('projects_create_get') }}">Create Project</a>
+        <a href="{{ path('persons_create_get') }}">Create Person</a>
+    </div>
 {% endblock %}	
 
 {% block stylesheets %}
-<style>
-.body{
-	margin: 20px 0 0 0;
-}
+    <style>
+        .body{
+            margin: 20px 0 0 0;
+        }
 
-.header{
-	margin: 0 0 0 80%;
-	padding: 20px;
-}
+        .header{
+            margin: 0 0 0 80%;
+            padding: 20px;
+        }
 
-.header a{
-	margin: 0 0 0 20px;
-}
+        .header a{
+            margin: 0 0 0 10px;
+        }
 
-.taskboard{
-	display: inline;
-	width: 45%;
-	margin: 0 2.5%;
-}
+        .taskboard{
+            float: left;
+            text-align: left;
+            width: 45%;
+            margin: 0 2.5%;
+        }
 
-.taskboard-extension{
-	display: inline;
-	width: 45%;
-	margin: 2.5%;
-}
-</style>
+        .taskboard-extension {
+            float: right;
+            display: inline;
+            width: 45%;
+
+        }
+
+        .taskboard-extension *{
+            display: block;
+            width: 45%;
+            margin: 2.5%;
+        }
+
+    </style>
 {% endblock %}

@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block description %}
+    <div class="description">Assign Project - {{ 'projectName' }}</div>
+{% endblock %}
+
+{% block body %}
+    <h6>New Member</h6>
+    <select>
+        {% for key in freeMembers|keys %}
+            <option value="{{ freeMembers[keys].getLastname() }}"> 
+                {{ freeMembers[keys].getLastname() }}</option>
+            {% endfor %}
+    </select>
+
+    <button name="add">Add</button>
+    <h6>Current Members</h6>
+
+    <ul>
+        {% for key in currentMembers|keys %}
+            <li>
+                {{ currentMembers[key].LastName()}} 
+                <a href=" ">Remove</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        textarea{
+            resize: none;
+        }
+
+        li>a{
+            float: right;
+        }
+        ul{
+            width:400px;
+        }
+    </style>
+
+{% endblock %}

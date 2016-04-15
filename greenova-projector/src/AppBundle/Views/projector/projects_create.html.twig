@@ -1,0 +1,31 @@
+{% extends 'create_base.html.twig' %}
+
+{% block description %}
+    <div class="description">Create Project</div>
+{% endblock %}
+
+{% block form %}
+    <form id="project-form" action="{{ path('projects_create_post') }}" method="post">
+        <label>Code</label><br/>
+        <input type="text" name="code" value=""></input><br/>
+        <label>Name</label><br/>
+        <input type="text" name="name" value=""></input><br/>
+        <label>Budget</label><br/>
+        <input type="text" name="budget" value=""></input><br/>
+        <label>Remarks</label><br/>
+
+        <textarea rows="4" cols="50" name="remarks" form="project-form">
+            
+        </textarea> <br/>
+        <button type="submit">submit</button>
+    </form>
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        textarea{
+            resize: none;
+        }
+    </style>
+
+{% endblock %}

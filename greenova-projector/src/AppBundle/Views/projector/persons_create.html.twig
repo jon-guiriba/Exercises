@@ -1,0 +1,23 @@
+{% extends 'create_base.html.twig' %}
+
+{% block error %}
+
+{% endblock %}
+
+{% block description %}
+    <div class="description">Create Project</div>
+{% endblock %}
+
+{% block form %}
+    <form action="{{ path('persons_create_post') }}" method="post">
+        <label>Last name</label><br/>
+        <input type="text" name="lastname" value=""  maxlength="50" ></input><br/>
+        <label>First name</label><br/>
+        <input type="text" name="firstname" value=""  maxlength="50"></input><br/>
+        <label>Username</label><br/>
+        <input type="text" name="username" value=""  maxlength="200"></input><br/>
+        <label>Password</label><br/>
+        <input type="password" name="password" value=""  maxlength="11"></input><br/>
+        <button type="submit">submit</button>
+    </form>
+{% endblock %}

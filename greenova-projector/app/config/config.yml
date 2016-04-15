@@ -67,3 +67,11 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+services:
+    password_authenticator:
+        class: AppBundle\Security\PasswordAuthenticator
+        arguments: ["@security.password_encoder"]
+    projectQuery:
+        class: AppBundle\Queries\GetAllProjects
+        arguments: [gettAllProjects(),doctrine.orm.entity_manager]

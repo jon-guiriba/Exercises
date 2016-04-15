@@ -187,7 +187,7 @@
 			"file": "src/AppBundle/Resources/config/routing.yml",
 			"settings":
 			{
-				"buffer_size": 156,
+				"buffer_size": 147,
 				"line_ending": "Windows"
 			}
 		},
@@ -211,7 +211,7 @@
 			"file": "src/AppBundle/Entity/User.php",
 			"settings":
 			{
-				"buffer_size": 3818,
+				"buffer_size": 3489,
 				"line_ending": "Unix"
 			}
 		},
@@ -219,7 +219,7 @@
 			"file": "src/AppBundle/Resources/config/doctrine/User.orm.yml",
 			"settings":
 			{
-				"buffer_size": 370,
+				"buffer_size": 422,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,7 +251,7 @@
 			"file": "app/config/security.yml",
 			"settings":
 			{
-				"buffer_size": 1731,
+				"buffer_size": 1915,
 				"line_ending": "Unix"
 			}
 		},
@@ -490,15 +490,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 156,
+						"buffer_size": 147,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								156,
-								118
+								0,
+								0
 							]
 						],
 						"settings":
@@ -582,15 +582,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3818,
+						"buffer_size": 3489,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2420,
-								2420
+								0,
+								0
 							]
 						],
 						"settings":
@@ -618,7 +618,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 370,
+						"buffer_size": 422,
 						"regions":
 						{
 						},
@@ -655,8 +655,8 @@
 						"selection":
 						[
 							[
-								2550,
-								2549
+								0,
+								0
 							]
 						],
 						"settings":
@@ -744,15 +744,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1731,
+						"buffer_size": 1915,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1288,
-								1288
+								0,
+								0
 							]
 						],
 						"settings":

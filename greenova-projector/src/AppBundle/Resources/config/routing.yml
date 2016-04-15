@@ -2,6 +2,9 @@ app:
     resource: "@AppBundle/Controller/"
     type: annotation
 
-login:
+Projector:
     resource: "@AppBundle/Projector/"
     type: annotation
+    
+
+    

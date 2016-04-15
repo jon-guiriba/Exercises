@@ -8,7 +8,8 @@ security:
     providers:
         projector_provider:
             entity:
-                class: Appbundle\Entity\user
+                class: AppBundle\Entity\User
+#                class: Appbundle\user
                 property: username
         # in_memory:
         #     memory:
@@ -25,20 +26,21 @@ security:
         # disables authentication for assets and the profiler, adapt it according to your needs
         
        
-        default:
+        main:
             security: true
             provider: projector_provider 
             anonymous: ~
             pattern: .*
-            form_login:
-                login_path: /projector/login
+            simple_form:
+                authenticator: password_authenticator
+                login_path: /projector/signin
                 check_path: /projector/login_check
                 always_use_default_target_path: true
                 default_target_path: /projector/projects
+
             logout:
                 path: /logout
                 invalidate_session: true
-            
            
             # activate different ways to authenticate
 

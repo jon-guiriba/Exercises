@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block stylesheets %} {% endblock %}
+    <div class="header">Welcome {{ app.user.username }}!  <a href="{{ logout_path('main') }}">Sign-out</a></div>
+</head>
+<body>
+    <h1><a href="{{ path('projects') }}"> THE PROJECTOR</a></h1>
+    <div class="body">
+        {% block taskboard %} {% endblock %}
+        {% block taskboard_extension %} {% endblock %}
+    </div>	
+</body>
+
+</html>
